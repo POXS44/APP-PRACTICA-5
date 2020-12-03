@@ -157,3 +157,107 @@ el color, hágalo en colors.xml
 + Cambie el color de texto y de fondo a los botones
 
 <img src="img\20.JPG"/>
+
+###  Agregar el elemento TextView y sus atributos correspondientes
+
+Una habilidad de usar ConstraintLayout es que puedes agregar elementos en cualquier
+parte del espacio disponible y establecer sus restricciones con cualquier elemento
+próximo al que se está agregando.
+
++ Desde el panel Palette y el apartado Common, agregue un elemento View
+TextView y establezca el atributo id a show_count.
+
+<img src="img\21.JPG"/>
+
++ Establezca las restricciones del TextView, la parte superior con el botón de Toast
+y su parte inferior con el botón contador.
+
+<img src="img\22.JPG"/>
+
++ Establezca las restricciones izquierda y derecha del elemento TextView al lado
+correspondiente al contenedor padre.
+<img src="img\23.JPG"/>
+
++ Establezca el valor text a 0
+<img src="img\24.JPG"/>
+
+
+
++ Establezca el valor textSize a 160sp
+<img src="img\25.JPG"/>
+
++ Establezca el textStyle a bold
+
+<img src="img\26.JPG"/>
+
++ Cambie layout_width y layout_height a match_constraint
+
+
+<img src="img\27.JPG"/>
+
++ Establezca el textColor a @color/colorPrimary
+<img src="img\28.JPG"/>
+
++ Establezca un valor preferido al atributo background, opcional el #0F49CD
+
+<img src="img\29.JPG"/>
+
++ Establezca el valor gravity a center_vertical
+
+<img src="img\31.JPG"/>
+
+
+
+### Tarea 1.4: Editando el layout en el XML
+
+
+¡El diseño de la aplicación Hello Toast está casi terminado! Sin embargo, aparece un
+signo de exclamación junto a cada elemento de la interfaz de usuario en el árbol de
+componentes (Component Tree). Pase el puntero sobre estos signos de exclamación para
+ver los mensajes de advertencia, como se muestra a continuación. Aparece la misma
+advertencia para los tres elementos: las cadenas codificadas deben usar recursos.
+
+
++ Edite el fichero strings.xml que se encuentra en la carpeta res/values:
+
+
+<img src="img\32.JPG"/>
+
+### Siga los siguientes pasos:
++ Abra el fichero activity_main.xml y cambie el modo solamente a código
+<img src="img\33.JPG"/>
+
++ Cambie el valor de text del TextView a un @string/count_initial_value
+<img src="img\34.JPG"/>
+
++ Cambie el valor de text del botón superior a @string/button_label_toast
+
+<img src="img\35.JPG"/>
+
++ Cambie el valor de text del botón inferior a @string/button_label_count
+
+<img src="img\36.JPG"/>
+
+
+### Tarea 1.5: Agregar el manejador del evento onClick para los botones
+
+
++ Establezca el siguiente código al botón que tenga como id button_toast, antes de
+cerrarlo
+
+<img src="img\37.JPG"/>
+
+
++ Establezca el siguiente código al botón que tenga como id button_count, antes
+de cerrarlo
+
+<img src="img\38.JPG"/>
+
+
++ Abra el MainActivity.kt y agregue el siguiente código
+
+
+
+
++ Agregue el siguiente código al método showToast
+
