@@ -127,19 +127,33 @@ de 16dp
 del panel Atributos a button_toast para el atributo android: id, que se usa para
 identificar el elemento en el layout.
 
-
+<img src="img\14.JPG"/>
 
 + Establezca el atributo de background en @color/colorPrimary. (A medida que
 ingresa @c, aparecen opciones para una fácil selección). Si no está establecido
 el color, hágalo en colors.xml
 
+<img src="img\1.png"/>
+
+<img src="img\15.JPG"/>
+
 + Establezca el atributo textColor en @android:color/white.
 
-o Edite el atributo text en Toast.
+<img src="img\16.JPG"/>
 
-o Selecciona el segundo botón y edite su campo id a button_count
++ Edite el atributo text en Toast.
+<img src="img\17.JPG"/>
 
-o Edite el atributo text del segundo botón a Contar
++ Selecciona el segundo botón y edite su campo id a button_count
 
-o Cambie el color de texto y de fondo a los botones
+<img src="img\18.JPG"/>
 
++ Edite el atributo text del segundo botón a Contar
+
+
+<img src="img\19.JPG"/>
+
+
++ Cambie el color de texto y de fondo a los botones
+
+<img src="img\20.JPG"/>
