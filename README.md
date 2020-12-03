@@ -252,12 +252,20 @@ cerrarlo
 de cerrarlo
 
 <img src="img\38.JPG"/>
-
-
 + Abra el MainActivity.kt y agregue el siguiente código
-
-
-
+<img src="img\40.JPG"/>
 
 + Agregue el siguiente código al método showToast
+<img src="img\41.JPG"/>
+
++ Agregue el siguiente código al método countUp
+<img src="img\42.JPG"/>
+
+Muestre la aplicación funcionando con el contador funcionando el contador y el
+mensaje Toast mostrándose cada vez que el usuario de Clic
+
+<img src="img\43.JPG"/>
+<img src="img\2.png"/>
+<img src="img\44.JPG"/>
+
 
