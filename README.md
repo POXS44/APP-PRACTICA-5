@@ -43,12 +43,12 @@ Conexión automática.
 
 ### Añadir un botón al layout
 Cuando está habilitada, la herramienta Conexión automática crea automáticamente dos
-o más restricciones para un elemento de interfaz de usuario en el diseño primario.
++ más restricciones para un elemento de interfaz de usuario en el diseño primario.
 Después de arrastrar el elemento al diseño, crea restricciones basadas en la posición del
 elemento.
 
 Comience con una pizarra limpia. El elemento TextView no es necesario, por lo
-que mientras está seleccionado, pulse la tecla Supr o elija Edición > Eliminar.
+que mientras está seleccionado, pulse la tecla Supr + elija Edición > Eliminar.
 Ahora tiene un diseño completamente en blanco
 
 <img src="img\7.png"/>
@@ -59,12 +59,12 @@ pueden aparecer restricciones automáticamente. Si no es así, puede arrastrar
 restricciones a la parte superior, izquierda y derecha del diseño
 <img src="img\8.JPG"/>
 
-o Añada un segundo botón en la parte inferior del layout y del mismo modo cree
++ Añada un segundo botón en la parte inferior del layout y del mismo modo cree
 las restricciones correspondientes con los elementos próximos a él. 
 
 <img src="img\9.JPG"/>
 
-o Pruebe borrar todos los constraints o restricciones de un elemento,
++ Pruebe borrar todos los constraints o restricciones de un elemento,
 seleccionando y pasando el puntero sobre este y seleccionar cleal all
 constraints
 
@@ -112,25 +112,28 @@ hasta un margen de 8 dp.
 
 <img src="img\11.png"/>
 
-o Realice la misma modificación para el botón inferior, el resultado es que ambos
++ Realice la misma modificación para el botón inferior, el resultado es que ambos
 botones deben cubrir todo el ancho del constraint.
-
-o Establezca wrap_content al layout_height, también puede usar un valor fijo
+<img src="img\12.JPG"/>
++ Establezca wrap_content al layout_height, también puede usar un valor fijo
 de 16dp
 
-<img src="img\12.JPG"/>
+
+<img src="img\13.JPG"/>
 
 
 ### Siga los siguientes pasos:
-o Después de seleccionar el primer botón, edite el campo ID en la parte superior
++ Después de seleccionar el primer botón, edite el campo ID en la parte superior
 del panel Atributos a button_toast para el atributo android: id, que se usa para
 identificar el elemento en el layout.
 
-o Establezca el atributo de background en @color/colorPrimary. (A medida que
+
+
++ Establezca el atributo de background en @color/colorPrimary. (A medida que
 ingresa @c, aparecen opciones para una fácil selección). Si no está establecido
 el color, hágalo en colors.xml
 
-o Establezca el atributo textColor en @android:color/white.
++ Establezca el atributo textColor en @android:color/white.
 
 o Edite el atributo text en Toast.
 
